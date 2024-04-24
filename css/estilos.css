@@ -1,0 +1,148 @@
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #BFBFBF;
+    color: #000000;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+/* Estilos para las secciones de la pagina con fondos de color */
+.section1 {
+    background-color: #127369;
+    color: #ffffff; 
+    padding: 50px 0;
+}
+
+.section2 {
+    background-color: #8AA6A3;
+    color: #000000; 
+    padding: 50px 0; 
+}
+
+.section3 {
+    background-color: #127369;
+    color: #ffffff; 
+    padding: 50px 0; 
+}
+
+/* Estilos para la barra de navegacion */
+.navbar {
+    background-color: #10403B;
+    color: white;
+}
+
+.navbar-nav .nav-link {
+    color: #ffffff;
+    transition: all 0.3s ease;
+}
+
+.navbar-nav .nav-link:hover {
+    color: #8AA6A3;
+}
+
+/* Estilos para el contenido del header */
+.header {
+    text-align: center;
+    padding: 80px 0;
+    
+}
+
+.title {
+    margin-bottom: 30px;
+}
+
+.subtitulo {
+    color: #17a2b8;
+}
+
+.descripcion {
+    line-height: 1.6;
+    
+}
+
+
+#carouselExampleSlidesOnly {
+    max-width: max-content;
+    margin: 0 auto;
+    
+}
+
+/* Estilos para el botón "Ver mas" */
+.boton {
+    margin-top: 20px;
+}
+
+.btn {
+    background-color: #10403B;
+    color: #fff;
+    border: none;
+}
+
+.btn:hover {
+    background-color: #8AA6A3;
+}
+
+/* Estilos para la sección de servicios */
+.services {
+    padding: 50px 0;
+    background-color: #BFBFBF;
+    
+}
+
+/* Estilos para el contenedor de las cartas */
+.card-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    background:#4C5958
+}
+
+/* Estilos para las cartas */
+.card {
+    width: 300px;
+    margin: 10px;
+    border-radius: 10px;
+    background-color: #8AA6A3;
+}
+.card-img-top {
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.card-body {
+    padding: 20px;
+}
+
+.card-title {
+    font-weight: bold;
+    color: #333;
+}
+
+.card-text {
+    color: #666;
+}
+
+/* Estilos para el footer */
+.contactos {
+    margin-top: 50px;
+    text-align: center;
+}
+
+.contactos img {
+    width: 30px;
+    margin-right: 10px;
+}
+
+.contactos a {
+    color: #333;
+    text-decoration: none;
+}
+
+.contactos a:hover {
+    text-decoration: underline;
+}
